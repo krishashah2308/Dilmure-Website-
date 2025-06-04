@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Welcome to Dilmure - India's corn puff delight!">
+  <meta name="author" content="dilmure.com">
+  <title>Dilmure | Home</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Hahmlet', serif;
+      background-color: #fdfceb;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      flex-shrink: 0;
+    }
+
+    .logo {
+      height: 200px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #b21e1e;
+      border: 1px solid #b21e1e;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #b21e1e;
+      color: #fff;
+    }
+
+    .main-section {
+      flex: 1;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      position: relative;
+      padding-left: 40px;
+      padding-bottom: 20px;
+    }
+
+    .main-section .enquiry-button {
+      background-color: #b21e1e;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .main-section .enquiry-button:hover {
+      background-color: #831818;
+    }
+
+    .corn-image {
+      position: absolute;
+      bottom: 0;
+      right: 60px;
+      height: 135%;
+      object-fit: contain;
+    }
+
+    .footer-logo {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      height: 100px;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Dilmure Title.png" alt="Dilmure Logo" class="logo" />
+    <nav>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <a href="enquiry.html">Enquiry Form</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="main-section">
+
+    <img src="C:\Users\WINDOWS\Desktop\Projects\Dilmure\cheese.png" alt="Corn Bowl" class="corn-image" />
+  </section>
+
+  <img src="Dilmure Logo.png" alt="Bottom Logo" class="footer-logo" />
+</body>
+</html> 
